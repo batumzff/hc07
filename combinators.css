@@ -1,0 +1,35 @@
+div p{
+    /* background-color: olive; */
+}
+
+.container div p{
+    /* background-color: magenta; */
+}
+
+p + div { /*! p'den hemen sonra gelen div */
+    background-color: blueviolet;
+}
+div + p { /*! div'den hemen sonra gelen p */
+    /* background-color: orange; */
+}
+
+.container + p { /*! div'den hemen sonra gelen p */
+    background-color: gray;
+}
+
+h2[title="baslik1"]{
+    background-color: darkorchid;
+}
+
+p[title="paragraf1"]{
+    background-color: olive;
+}
+p[title="paragraf2"]::first-letter{
+    font-size: 30px;
+    background-color: red;
+}
+
+a[target="_blank"]{
+    background-color: gray;
+    font-size: 1.5rem;
+}
